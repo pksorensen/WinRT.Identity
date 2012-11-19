@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WORKSTATION-PC</Machine>
+    <WindowsUser>Poul</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\S-Innovations.Demos.AzureACS.Win8StoreApp.exe">
+      <PackagePath>S-Innovations.Demos.AzureACS.Win8StoreApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\S-Innovations.Demos.AzureACS.Win8StoreApp.pdb">
+      <PackagePath>S-Innovations.Demos.AzureACS.Win8StoreApp.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.pdb">
+      <PackagePath>S-Innovations.Demos.FacebookIdentity.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pdb">
+      <PackagePath>S-Innovations.WinRT.Identity.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.dll">
+      <PackagePath>S-Innovations.Demos.FacebookIdentity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.dll">
+      <PackagePath>S-Innovations.WinRT.Identity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.xml">
+      <PackagePath>Facebook.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

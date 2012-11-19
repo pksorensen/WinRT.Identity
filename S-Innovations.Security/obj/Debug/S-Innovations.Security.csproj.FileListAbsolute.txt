@@ -1,0 +1,7 @@
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\bin\Debug\S-Innovations.Security.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\bin\Debug\S-Innovations.Security.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\obj\Debug\S-Innovations.Security.csprojResolveAssemblyReference.cache
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\obj\Debug\S-Innovations.Security.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\obj\Debug\S-Innovations.Security.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\bin\Debug\Newtonsoft.Json.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Security\bin\Debug\Newtonsoft.Json.xml

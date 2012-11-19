@@ -1,0 +1,14 @@
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pri
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\S-Innovations.WinRT.Identity.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\S-Innovations.WinRT.Identity.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\priconfig.xml
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\layout.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\resources.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\pri.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\LanguageQualifiers.txt
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\priconfig.xml.intermediate
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\layout.resfiles.intermediate
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\resources.resfiles.intermediate
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\pri.resfiles.intermediate

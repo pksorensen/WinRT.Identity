@@ -1,0 +1,16 @@
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.pri
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.WinRT.Identity.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.WinRT.Identity.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.WinRT.Identity.pri
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.xml
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\S-Innovations.Demos.FacebookIdentity.csprojResolveAssemblyReference.cache
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\S-Innovations.Demos.FacebookIdentity.dll
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\S-Innovations.Demos.FacebookIdentity.pdb
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\priconfig.xml
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\layout.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\resources.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\pri.resfiles
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\obj\Debug\LanguageQualifiers.txt

@@ -1,0 +1,4 @@
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\S-Innovations.Demos.AzureACS.Win8StoreApp.csproj;neutral
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\S-Innovations.Demos.FacebookIdentity.csproj;neutral
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\S-Innovations.WinRT.Identity.csproj;neutral
+g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\S-Innovations.WinRT.Identity.csproj;neutral

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WORKSTATION-PC</Machine>
+    <WindowsUser>Poul</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>3093072C85DB4D46A3D3B7FAC6FA553767B9201E40BF2CAAFB87753ABED86B3C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>839717df-b59d-47eb-8eb9-b77b84c0df6e_1.0.0.0_neutral__dhq5kq361caw2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>839717df-b59d-47eb-8eb9-b77b84c0df6e_dhq5kq361caw2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>839717df-b59d-47eb-8eb9-b77b84c0df6e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Poul</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-18T21:10:01.999</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\S-Innovations.Demos.AzureACS.Win8StoreApp.exe">
+      <PackagePath>S-Innovations.Demos.AzureACS.Win8StoreApp.exe</PackagePath>
+      <Modified>2012-11-19T00:57:33.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\S-Innovations.Demos.AzureACS.Win8StoreApp.pdb">
+      <PackagePath>S-Innovations.Demos.AzureACS.Win8StoreApp.pdb</PackagePath>
+      <Modified>2012-11-19T00:57:33.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.pdb">
+      <PackagePath>S-Innovations.Demos.FacebookIdentity.pdb</PackagePath>
+      <Modified>2012-11-19T00:57:08.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pdb">
+      <PackagePath>S-Innovations.WinRT.Identity.pdb</PackagePath>
+      <Modified>2012-11-19T00:57:07.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\S-Innovations.Demos.FacebookIdentity.dll">
+      <PackagePath>S-Innovations.Demos.FacebookIdentity.dll</PackagePath>
+      <Modified>2012-11-19T00:57:08.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.dll">
+      <PackagePath>S-Innovations.WinRT.Identity.dll</PackagePath>
+      <Modified>2012-11-19T00:57:07.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+      <Modified>2012-11-18T20:58:48.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.FacebookIdentity\bin\Debug\Facebook.xml">
+      <PackagePath>Facebook.xml</PackagePath>
+      <Modified>2012-11-18T20:58:48.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-18T19:10:10.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-18T21:41:41.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.Demos.AzureACS.Win8StoreApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-18T21:10:01.851</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

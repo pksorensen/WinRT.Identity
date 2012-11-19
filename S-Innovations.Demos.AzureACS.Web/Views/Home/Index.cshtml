@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Home</h2>
+ @System.Security.Claims.ClaimsPrincipal.Current.Identity.IsAuthenticated
+@foreach (System.Security.Claims.Claim item in ViewBag.Claims)
+{
+    @item.ToString();
+}
