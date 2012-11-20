@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
@@ -37,6 +38,8 @@ namespace S_Innovations.WinRT.Identity
         /// </summary>
         public string FacebookApplicationID { get; set; }
         public string FacebookApplicationSecret { get; set; }
+
+        public bool UsePasswordVault { get; set; }
 
 
         private Lazy<Task<ACSProvidersInfo>> _fetcher;
@@ -99,8 +102,29 @@ namespace S_Innovations.WinRT.Identity
         {
             return IdentifyAsync<Identity>(provider, ACSProvider);
         }
-        public Task<T> IdentifyAsync<T>(AuthenticationProvider provider, ACSProvider ACSProvider = null) where T : Identity, new()
+        public async Task<T> IdentifyAsync<T>(AuthenticationProvider provider, ACSProvider ACSProvider = null) where T : Identity, new()
         {
+            var vault = new Windows.Security.Credentials.PasswordVault();
+
+            try
+            {
+
+                var tok = vault.Retrieve(AccessControlNamespace, provider.ToString());
+                if (IsExpired(tok.Password))
+                {
+                    vault.Remove(tok);
+                }
+                else
+                {
+                    return new T() { Token = tok.Password, Success = true, Provider = provider };
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+ 
+
             string LoginUrl="";
             string BouncerEndUrl="";
 
@@ -137,7 +161,7 @@ namespace S_Innovations.WinRT.Identity
             }
 
 
-            return WebAuthenticationBroker.AuthenticateAsync(
+            return await WebAuthenticationBroker.AuthenticateAsync(
                     WebAuthenticationOptions.None,
                     new Uri(LoginUrl),
                     new Uri(BouncerEndUrl)).AsTask<WebAuthenticationResult>()
@@ -147,9 +171,27 @@ namespace S_Innovations.WinRT.Identity
                         if (!t.IsFaulted && (response.ResponseStatus == WebAuthenticationStatus.Success))
                         {
                             string token = response.ResponseData;// response.ResponseData.Substring(response.ResponseData.IndexOf('=') + 1);
-                            token = token.Replace(BouncerEndUrl, ""); //Assume that the url is the BouncerEndUrl + '#' / '?' + claims.
+                            token = token.Replace(BouncerEndUrl, "").Substring(1); //Assume that the url is the BouncerEndUrl + '#' / '?' + claims.
 
-                            return new T() { Token = token.Substring(1), Success = true, Provider = provider };
+                            if (provider == AuthenticationProvider.Facebook)
+                            {
+                                var idx = token.IndexOf("&expires_in=");
+                                var time = int.Parse(token.Substring(idx+12));
+                                token = token.Insert(idx, string.Format("&ExpiresOn={0}", (int)DateTime.UtcNow.Add(TimeSpan.FromSeconds(time)).Subtract(Epoch).TotalSeconds));
+
+
+                            }
+
+                            if (UsePasswordVault)
+                            {
+                                var cred = new Windows.Security.Credentials.PasswordCredential(AccessControlNamespace,
+                                   provider.ToString(), token);
+                                new Windows.Security.Credentials.PasswordVault().Add(cred);
+
+                            }
+                            return new T() { Token = token, Success = true, Provider = provider };
+                        
+                        
                         }
                         else
                             return new T() { UnSuccessReason = response.ResponseStatus.ToString(),
@@ -159,9 +201,41 @@ namespace S_Innovations.WinRT.Identity
            
 
         }
+        private static readonly DateTime Epoch = new DateTime(1970, 1, 1, 0, 0, 0,
+                                  DateTimeKind.Utc);
 
+        public bool IsExpired(string swt)
+        {
+            if (String.IsNullOrEmpty(swt))
+                return true;
 
+            int index = swt.LastIndexOf("&ExpiresOn="); int lenght = 11;
+            //if (index == -1)
+            //{
+            //    index = swt.LastIndexOf("&expires_in=");
+            //    lenght = 12;
+            //}
 
+            if (index > 0)
+            {
+                // Split the SWT
+                swt = swt.Substring(index + lenght);
+                index = swt.IndexOf('&');
+
+                if (index > 0)
+                {
+                    // Remove everything after the expiration timestamp
+                    swt = swt.Substring(0, index);
+                    // Convert the timestamp and compare against the current (UTC) time
+                    double seconds = double.Parse(swt, CultureInfo.InvariantCulture);
+
+                    return DateTime.UtcNow > Epoch.AddSeconds(seconds);
+
+                }
+            }
+
+            return false;
+        }
     
         public IdentityManager()
         {

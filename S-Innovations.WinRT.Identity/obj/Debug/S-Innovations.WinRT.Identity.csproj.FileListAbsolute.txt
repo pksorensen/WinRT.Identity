@@ -12,3 +12,17 @@ g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovati
 g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\layout.resfiles.intermediate
 g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\resources.resfiles.intermediate
 g:\documents\visual studio 2012\Projects\S-Innovations.Demos.AzureACS\S-Innovations.WinRT.Identity\obj\Debug\pri.resfiles.intermediate
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.dll
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pdb
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\bin\Debug\S-Innovations.WinRT.Identity.pri
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\S-Innovations.WinRT.Identity.dll
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\S-Innovations.WinRT.Identity.pdb
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\priconfig.xml.intermediate
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\layout.resfiles.intermediate
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\resources.resfiles.intermediate
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\pri.resfiles.intermediate
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\priconfig.xml
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\layout.resfiles
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\resources.resfiles
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\pri.resfiles
+G:\Documents\Visual Studio 2012\Projects\WinRT.Identity\S-Innovations.WinRT.Identity\obj\Debug\LanguageQualifiers.txt
